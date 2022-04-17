@@ -30,9 +30,10 @@ class SellerViewSet(viewsets.ViewSet):
         address = data.get("address")
 
         # hardcoding the jwt secret here can be stored in a diff file
-
+        print("something new")
         jwt_secret = "abcdefgh"
-
+        print("I am here")
+        print("something new")
         seller = Seller(name=name,
                         phone_number=phone_number,
                         address=address)
