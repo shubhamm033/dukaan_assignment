@@ -34,6 +34,7 @@ class SellerViewSet(viewsets.ViewSet):
         jwt_secret = "abcdefgh"
         print("I am here")
         print("something new")
+        print("feature")
         print("master feature")
         seller = Seller(name=name,
                         phone_number=phone_number,
